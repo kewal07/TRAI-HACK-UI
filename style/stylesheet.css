@@ -108,3 +108,21 @@ img.askbypoll-embed-poll-logo{
 #complaints-container .mix{
 	 display: none;
 }
+.ui-autocomplete-multiselect .ui-autocomplete-multiselect-item {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.ui-autocomplete-multiselect .ui-autocomplete-multiselect-item .ui-icon {
+    float: right;
+    cursor: pointer;
+}
+.ui-autocomplete-input{
+	display: inline;
+}
+.tsp-table-body{
+	padding-bottom:18px;
+}
