@@ -126,3 +126,11 @@ img.askbypoll-embed-poll-logo{
 .tsp-table-body{
 	padding-bottom:18px;
 }
+.predictive-submit{
+	margin-left:45%;
+	margin-bottom:2rem;
+}
+@media (max-width: 767px)
+.content-wrapper, .right-side, .main-footer {
+    margin-left: 0 !important;
+}
