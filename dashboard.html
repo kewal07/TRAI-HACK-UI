@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>TRAI Complaint Redressal System</title>
+		<title>TRAI Quality of Service Analysis</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="shortcut icon" href="img/favicon.png">
@@ -39,8 +39,8 @@
 		    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 	    <style>
-	    	.content-wrapper, .right-side, .main-footer{
-				margin-left: 235px;
+	    	.main-footer{
+				margin-left: 228px;
 			}
 			.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
 				background-color:#222d32; 
@@ -68,7 +68,7 @@
 			      <!-- mini logo for sidebar mini 50x50 pixels -->
 			      <span class="logo-mini"><b>TRAI</b></span>
 			      <!-- logo for regular state and mobile devices -->
-			      <span class="logo-lg"><b>TRAI</b> Complaint Redressal System</span>
+			      <span class="logo-lg"><b>TRAI</b> Quality of Service Analysis</span>
 			    </a>
 			    <!-- Header Navbar: style can be found in header.less -->
 			    <nav class="navbar navbar-static-top">
@@ -83,16 +83,10 @@
 			            <a href="dashboard.html"><i class="fa fa-tachometer"></i> Dashboard</a>
 			          </li>
 			          <li>
-			            <a href="add-complaint.html"><i class="fa fa-bug"></i> Add Complaint</a>
-			          </li>
-			          <li>
-			            <a href="#"><i class="fa fa-bar-chart"> Opinion Poll</i></a>
+			            <a href="#"><i class="fa fa-bar-chart"> Feedback</i></a>
 			          </li>
 			          <li>
 			            <a href="#"><i class="fa fa-question"></i> FAQ</a>
-			          </li>
-			          <li>
-			            <a href="#"><i class="fa fa-sign-in"></i> Login</a>
 			          </li>
 			        </ul>
 			      </div>
@@ -111,7 +105,7 @@
 				        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
 				      </a>
 				    </li>
-				    <li>
+				    <!-- <li>
 				      <a href="comparitive-analytics.html">
 				        <i class="fa fa-pie-chart"></i> <span>Comparitive Analytics</span>
 				      </a>
@@ -125,7 +119,7 @@
 				      <a href="download.html">
 				        <i class="fa fa-cloud-download"></i> <span>View & Export</span>
 				      </a>
-				    </li>
+				    </li> -->
 				  </ul>
 				</section>
 			<!-- /.sidebar -->
@@ -139,7 +133,7 @@
 				    <small>Control panel</small>
 				  </h1>
 				  <ol class="breadcrumb">
-				    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+				    <li><a href="http://www.trai.gov.in"><i class="fa fa-dashboard"></i> Home</a></li>
 				    <li class="active">Dashboard</li>
 				  </ol>
 				</section>
@@ -150,13 +144,13 @@
 				    <div class="col-lg-3 col-xs-6">
 				      <!-- small box -->
 				      <div class="small-box bg-aqua">
+				      	<i class="ion ion-arrow-graph-down-left call-drop"></i>
 				        <div class="inner">
-				          <h3>1000090</h3>
-
-				          <p>Total Issues</p>
+				          <h3>21.28%</h3>
+				          <p>Call Drop Rate: Current Month</p>
 				        </div>
 				        <div class="icon">
-				          <i class="ion ion-bag"></i>
+				          <i class="ion ion-android-call"></i>
 				        </div>
 				        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				      </div>
@@ -165,13 +159,14 @@
 				    <div class="col-lg-3 col-xs-6">
 				      <!-- small box -->
 				      <div class="small-box bg-green">
+				      	<i class="ion ion-arrow-graph-down-left call-drop"></i>
 				        <div class="inner">
-				          <h3>300000</h3>
+				          <h3>0.82%</h3>
 
-				          <p>Open Issues</p>
+				          <p>Call Drop Rate: Previous Month</p>
 				        </div>
 				        <div class="icon">
-				          <i class="ion ion-stats-bars"></i>
+				          <i class="ion ion-android-call"></i>
 				        </div>
 				        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				      </div>
@@ -180,13 +175,13 @@
 				    <div class="col-lg-3 col-xs-6">
 				      <!-- small box -->
 				      <div class="small-box bg-yellow">
-				        <div class="inner">
-				          <h3>15%</h3>
+				      	<div class="inner network-usage network-usage-2g">
+				          <h3>59.74%</h3>
 
-				          <p>Monthly Increase In Complaints</p>
+				          <p>2G Network Utilization</p>
 				        </div>
 				        <div class="icon">
-				          <i class="ion ion-arrow-graph-up-right"></i>
+				          <i class="ion ion-wifi"></i>
 				        </div>
 				        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				      </div>
@@ -195,13 +190,13 @@
 				    <div class="col-lg-3 col-xs-6">
 				      <!-- small box -->
 				      <div class="small-box bg-red">
-				        <div class="inner">
-				          <h3>65000</h3>
+				      	<div class="inner network-usage network-usage-3g">
+				          <h3>79.74%</h3>
 
-				          <p>Unique Monthly Visitors</p>
+				          <p>3G Network Utilization</p>
 				        </div>
 				        <div class="icon">
-				          <i class="ion ion-person-add"></i>
+				          <i class="ion ion-wifi"></i>
 				        </div>
 				        <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				      </div>
@@ -213,23 +208,33 @@
 				  <div class="row">
 				    <section class="col-md-12">
 				      <!-- Custom tabs (Charts with tabs)-->
-				      <div class="nav-tabs-custom">
-				        <!-- Tabs within a box -->
-				        <ul class="nav nav-tabs pull-right">
-				          <li class="active"><a href="#" data-toggle="tab">Area</a></li>
-				          <!-- <li><a href="#sales-chart" data-toggle="tab">Donut</a></li> -->
-				          <li class="pull-left header"><i class="fa fa-line-chart"></i> Trend</li>
-				        </ul>
-				        <div class="tab-content no-padding">
-				          <!-- Morris chart - Sales -->
-				          <div class="chart tab-pane active" id="trend-chart" style="position: relative; height: 300px;"></div>
-				        </div>
-				      </div>
+				       <div class="nav-tabs-custom bg-teal-gradient">
+			            <!-- Tabs within a box -->
+			            <ul class="nav nav-tabs pull-right">
+			              <li class="active"><a href="#call-drop-chart" data-toggle="tab">Call Drop</a></li>
+			              <li><a href="#nw-2g-chart" data-toggle="tab">Network Utilization : 2G</a></li>
+			              <li><a href="#nw-3g-chart" data-toggle="tab">Network Utilization : 3G</a></li>
+			              <li class="pull-left header"><i class="fa fa-line-chart"></i> Trend</li>
+			            </ul>
+			            <div class="tab-content no-padding">
+			              <!-- Morris chart - Sales -->
+			              <div class="chart tab-pane active bg-teal-gradient" id="call-drop-chart" style="position: relative; height: 300px;"></div>
+			              <div class="chart tab-pane bg-teal-gradient" id="nw-2g-chart" style="position: relative; height: 300px;"></div>
+			              <div class="chart tab-pane bg-teal-gradient" id="nw-3g-chart" style="position: relative; height: 300px;"></div>
+			            </div>
+			          </div>
 				    </section>
 				   <section class="col-md-12">
 				   		<div class="row">
 				   			<div class="col-md-6">
-				   				<div id="geochart-colors"></div>
+				   				<div class="box">
+					            	<div class="box-header with-border">
+					            		<h3 class="box-title">Statewise Breakdown</h3>
+					            	</div>
+					            	<div class="box-body">
+				   						<div id="geochart-colors"></div>
+				   					</div>
+				   				</div>
 							</div>
 							<div class="col-md-6">
 					        	<div class="box">
@@ -243,76 +248,86 @@
 						                  <th style="width: 10px">#</th>
 						                  <th>TSP</th>
 						                  <th>Status</th>
-						                  <th style="width: 40px"># Issues</th>
-						                  <th style="width: 40px">% Solved</th>
+						                  <th style="width: 40px">Call Drop</th>
+						                  <th style="width: 40px">Network Utilization 2g</th>
+						                  <th style="width: 40px">Network Utilization 3g</th>
 						                </tr>
 						                <tr>
 						                  <td>1.</td>
 						                  <td>Airtel</td>
 						                  <td>
 						                    <div class="progress progress-xs">
-						                      <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+						                      <div class="progress-bar progress-bar-success" style="width: 75%"></div>
 						                    </div>
 						                  </td>
-						                  <td><span class="badge bg-red">22000</span></td>
-						                  <td><span class="badge bg-red">55%</span></td>
+						                  <td><span class="badge bg-green">0.7</span></td>
+						                  <td><span class="badge bg-yellow">55%</span></td>
+						                  <td><span class="badge bg-green">85%</span></td>
 						                </tr>
 						                <tr>
 						                  <td>2.</td>
 						                  <td>BSNL</td>
 						                  <td>
 						                    <div class="progress progress-xs">
-						                      <div class="progress-bar progress-bar-yellow" style="width: 70%"></div>
+						                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
 						                    </div>
 						                  </td>
-						                  <td><span class="badge bg-red">22000</span></td>
-						                  <td><span class="badge bg-yellow">70%</span></td>
+						                  <td><span class="badge bg-green">0.7</span></td>
+						                  <td><span class="badge bg-green">85%</span></td>
+						                  <td><span class="badge bg-green">95%</span></td>
 						                </tr>
 						                <tr>
 						                  <td>3.</td>
 						                  <td>Reliance</td>
 						                  <td>
-						                    <div class="progress progress-xs progress-striped active">
-						                      <div class="progress-bar progress-bar-primary" style="width: 30%"></div>
+						                    <div class="progress progress-xs">
+						                      <div class="progress-bar progress-bar-yellow" style="width: 50%"></div>
 						                    </div>
 						                  </td>
-						                  <td><span class="badge bg-red">22000</span></td>
-						                  <td><span class="badge bg-light-blue">30%</span></td>
+						                  <td><span class="badge bg-red">32.7</span></td>
+						                  <td><span class="badge bg-yellow">65%</span></td>
+						                  <td><span class="badge bg-green">85%</span></td>
 						                </tr>
 						                <tr>
 						                  <td>4.</td>
 						                  <td>Vodafone</td>
 						                  <td>
-						                    <div class="progress progress-xs progress-striped active">
-						                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+						                    <div class="progress progress-xs">
+						                      <div class="progress-bar progress-bar-red" style="width: 30%"></div>
 						                    </div>
 						                  </td>
-						                  <td><span class="badge bg-red">22000</span></td>
-						                  <td><span class="badge bg-green">90%</span></td>
+						                  <td><span class="badge bg-red">28.7</span></td>
+						                  <td><span class="badge bg-yellow">59%</span></td>
+						                  <td><span class="badge bg-yellow">67%</span></td>
 						                </tr>
 						                <tr>
 						                  <td>5.</td>
 						                  <td>Tata Docomo</td>
 						                  <td>
-						                    <div class="progress progress-xs progress-striped active">
-						                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+						                    <div class="progress progress-xs">
+						                      <div class="progress-bar progress-bar-danger" style="width: 25%"></div>
 						                    </div>
 						                  </td>
-						                  <td><span class="badge bg-red">22000</span></td>
-						                  <td><span class="badge bg-green">90%</span></td>
+						                  <td><span class="badge bg-red">28.7</span></td>
+						                  <td><span class="badge bg-yellow">59%</span></td>
+						                  <td><span class="badge bg-yellow">67%</span></td>
 						                </tr>
 						                <tr>
-						                  <td>5.</td>
-						                  <td>Aircel</td>
+						                  <td>6.</td>
+						                  <td>MTNL</td>
 						                  <td>
-						                    <div class="progress progress-xs progress-striped active">
-						                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+						                    <div class="progress progress-xs">
+						                      <div class="progress-bar progress-bar-danger" style="width: 25%"></div>
 						                    </div>
 						                  </td>
-						                  <td><span class="badge bg-red">22000</span></td>
-						                  <td><span class="badge bg-green">90%</span></td>
+						                  <td><span class="badge bg-red">28.7</span></td>
+						                  <td><span class="badge bg-yellow">69%</span></td>
+						                  <td><span class="badge bg-red">7%</span></td>
 						                </tr>
 						              </table>
+						              <div class="box-footer">
+						             	<p><a> See More</a></p>
+						              </div>
 						            </div>
 					            	<!-- /.box-body -->
 					          	</div>
@@ -323,76 +338,17 @@
 				   			<div class="col-md-12">
 				   				<div class="box box-info">
 						            <div class="box-header with-border">
-						              <h3 class="box-title">Issues View</h3>
+						              <h3 class="box-title">BTS Density</h3>
 						            </div>
-						            <!-- /.box-header -->
-						            <div class="box-body">
-						              <div class="table-responsive">
-						                <table class="table no-margin">
-						                  <thead>
-						                  <tr>
-						                    <th>SR NO</th>
-						                    <th>Circle Name</th>
-						                    <th>Product Type</th>
-						                    <th>TSP</th>
-						                    <th>Summary</th>
-						                    <th>Created On</th>
-						                    <th>Last Updated On</th>
-						                    <th>Status</th>
-						                  </tr>
-						                  </thead>
-						                  <tbody>
-						                  <tr>
-						                    <td><a href="pages/examples/invoice.html">142</a></td>
-						                    <td>Karnataka</td>
-						                    <td>Prepaid</td>
-						                    <td>Airtel</td>
-						                    <td>Working with AdminLTE on a great new app! Wanna join</td>
-						                    <td>3/3/2016</td>
-						                    <td>3/5/2016</td>
-						                    <td><span class="label label-warning">Open</span></td>
-						                  </tr>
-						                  <tr>
-						                    <td><a href="pages/examples/invoice.html">142</a></td>
-						                    <td>Karnataka</td>
-						                    <td>Prepaid</td>
-						                    <td>Airtel</td>
-						                    <td>Working with AdminLTE on a great new app! Wanna join</td>
-						                    <td>3/3/2016</td>
-						                    <td>3/5/2016</td>
-						                    <td><span class="label label-success">Resolved</span></td>
-						                  </tr>
-						                  <tr>
-						                    <td><a href="pages/examples/invoice.html">142</a></td>
-						                    <td>Karnataka</td>
-						                    <td>Prepaid</td>
-						                    <td>Airtel</td>
-						                    <td>Working with AdminLTE on a great new app! Wanna join</td>
-						                    <td>3/3/2016</td>
-						                    <td>3/5/2016</td>
-						                    <td><span class="label label-danger">ReOpened</span></td>
-						                  </tr>
-						                  <tr>
-						                    <td><a href="pages/examples/invoice.html">142</a></td>
-						                    <td>Karnataka</td>
-						                    <td>Prepaid</td>
-						                    <td>Airtel</td>
-						                    <td>Working with AdminLTE on a great new app! Wanna join.Working with AdminLTE on a great new app! Wanna join</td>
-						                    <td>3/3/2016</td>
-						                    <td>3/5/2016</td>
-						                    <td><span class="label label-warning">Open</span></td>
-						                  </tr>
-						                  
-						                  </tbody>
-						                </table>
-						              </div>
-						              <!-- /.table-responsive -->
+						            
+						            <div class="box-body chart-responsive">
+						               <div class="chart" id="bar-chart" style="height: 300px;"></div>
 						            </div>
-						            <!-- /.box-body -->
+						            
 						            <div class="box-footer clearfix">
-						              <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">View All </a>
+						              <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-right">See in Detail </a>
 						            </div>
-						            <!-- /.box-footer -->
+						            
 						        </div>
 				   			</div>
 				   		</div>
@@ -450,10 +406,37 @@
 
       		 function drawRegionsMap() {
 		        var data = google.visualization.arrayToDataTable([
-		          ['State',   'Issues'],
-		          ['Punjab', 36],
-		          ['Bihar',9800],
-		          ['Karnataka',9753]
+		          ['State',   'Call Drop','% Network Utilization 2G'],
+		          ['Punjab', 3.6,56.5],
+		          ['Bihar',3.8,90.2,],
+		          ['Karnataka',4.0,56.2],
+		          ['Kerala', 4.2,70.5],
+		          ['Jharkhand',4.4,72.8],
+		          ['West Bengal',4.6,74.6],
+		          ['Orissa', 4.8,56.6],
+		          ['Madhya Pradesh',5.0,67.2],
+		          ['Uttar Pradesh',5.2,67],
+		          ['Andhra Pradesh', 5.4,72.5],
+		          ['Arunachal Pradesh',5.6,78.5],
+		          ['Assam',5.8,86.3],
+		          ['Chhattisgarh', 6.0,90.3],
+		          ['Goa',6.2,90.3],
+		          ['Gujrat',6.4,90.98],
+		          ['Haryana', 6.6,91.8],
+		          ['Himachal Pradesh',6.8,67.7],
+		          ['Jammu and Kashmir',7.0,65.6],
+		          ['Maharashtra', 7.2,90.1],
+		          ['Manipur',7.4,56.6],
+		          ['Meghalaya',7.6,56.5],
+		          ['Mizoram', 7.8,78.5],
+		          ['Nagaland',8.0,73.5],
+		          ['Rajasthan',8.2,85.5],
+		          ['Sikkim', 8.4,81.8],
+		          ['Tamil Nadu',8.6,90.1],
+		          ['Uttarakhand',8.8,76.7],
+		          ['Telangana', 9.0,76.6],
+		          ['Tripura',9.2,87.1],
+		          ['Chandigarh',9.4,65.1]
 		        ]);
 
 		        var options = {
@@ -471,7 +454,37 @@
 		        chart.draw(data, options);
 		    };
 			$(function () {
-				
+				var bar = new Morris.Bar({
+			      element: 'bar-chart',
+			      resize: true,
+			      data: [
+			        {y: 'J&K', a: 100, b: 90},
+			        {y: 'AP&TG', a: 75, b: 65},
+			        {y: 'BR&JH', a: 50, b: 40},
+			        {y: 'DL', a: 75, b: 65},
+			        {y: 'UP-W&UT', a: 50, b: 40},
+			        {y: 'WB', a: 75, b: 65},
+			        {y: 'AS', a: 100, b: 90},
+			        {y: 'GJ', a: 100, b: 90},
+			        {y: 'HP', a: 75, b: 65},
+			        {y: 'HR', a: 50, b: 40},
+			        {y: 'JK', a: 75, b: 65},
+			        {y: 'KA', a: 50, b: 40},
+			        {y: 'KL', a: 75, b: 65},
+			        {y: 'MH&GA', a: 100, b: 90},
+			        {y: 'MP&CG', a: 50, b: 40},
+			        {y: 'NE', a: 75, b: 65},
+			        {y: 'OD', a: 50, b: 40},
+			        {y: 'PB', a: 75, b: 65},
+			        {y: 'RJ', a: 100, b: 90},
+			        {y: 'TN', a: 75, b: 65}
+			      ],
+			      barColors: ['#00a65a', '#f56954'],
+			      xkey: 'y',
+			      ykeys: ['a', 'b'],
+			      labels: ['BTS:Current Month', 'BTS:Previous Month'],
+			      hideHover: 'auto'
+			    });
 			});
 		</script
 	</body>
